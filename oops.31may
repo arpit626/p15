@@ -1,0 +1,33 @@
+# 29 may ki class chuti thi
+class method  
+class variabls
+
+
+
+# 31 may
+
+ #constructor function - it is use ti initialize the class and it is called by default when
+     the class is called (object/instance/ref. of the class / instanciating the class)
+
+
+
+class Products:
+
+
+     # dunder method / magic methods -> __method_name__()
+
+     def__init__(self):
+         self.name = name
+         print("hello from init")   
+
+
+     def getname(self):
+         return self.__name
+
+
+obj1 = Products("mackbook")
+obj2 = products("airpods")
+
+print(obj1.getname())
+print(obj2.getname())
+
