@@ -650,41 +650,28 @@
 
 # 24june
 # data classees
-# from dataclasses import dataclass
-# @dataclass
-# class Person:
-#     __name: str
-#     __age: int
+from dataclasses import dataclass 
+@dataclass          
+class Person:  
+    __name: str                   
+    __age: int   
 
-#     def __str__(self):
-#         return f"{self.__name} is  {self.__age} years old "     
+    def __str__(self):
+        return f"{self.__name} is  {self.__age} years old "     
     
 
-# a = Person("Arpit",22)  
-# print(a) # arpit is 22 years old 
+a = Person("Arpit",22)  
+print(a) # arpit is 22 years old 
 
 
 
 
-#2   
-# from collections import namedtuple
+#2    
+from collections import namedtuple               
 
 
-# Det = namedtuple("Details",["name","age"])
-# x = Det("vikku",25)
-# print(type(x))
-# print(x) 
-
-a = "123"
-
-b = ""
-
-for i in range(len(a)-1,-1,-1):
-    b = b + a[i]
-
-if a== b:
-    print("true")
-else:
-    print("false")             
-
+Det = namedtuple("Details",["name","age"])        
+x = Det("vikku",25)           
+print(type(x))      
+print(x)                
 

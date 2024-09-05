@@ -13,3 +13,10 @@ for i in range(0,len(a)):
     if a[i] != num:
         final.append(a[i])
 print(final)
+
+
+
+
+
+
+
